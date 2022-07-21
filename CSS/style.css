@@ -1,0 +1,49 @@
+:root {
+    --color-background:#C5C3C6;
+    --color-background-left:#46494C;
+    --color-title:#1985A1;
+    --color-text-left:#DCDCDD;
+    --color-second-title:#4C5C68;
+    --color-main-title:#fff;
+
+    --poilice-title:'Edu QLD Beginner', cursive;
+    --police-cite:'Dancing Script', cursive;
+    --police-texte:'Poppins', sans-serif;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: var(--color-background-left);
+    padding: 2rem 1rem;
+}
+
+.left__header__image {
+    display: block;
+    width: 70%;
+    border-radius: 40%;
+    margin: 0 auto 3rem auto;
+}
+
+.left__header__image:hover {
+    box-shadow: 0px 1px 5px black;
+}
+
+.left__header__main__title {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: var(--color-main-title);
+    text-align: center;
+    font-size: 3rem ;
+    padding: 0;
+    font-family: var(--poilice-title);
+}
+
+.left__header__second__title {
+    font-family: var(--poilice-title);
+    color: var(--color-title);
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+}
