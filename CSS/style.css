@@ -91,7 +91,6 @@
 .left__contact__content--link:hover {
     color: var(--color-title);
     transition-duration: 1s;
-    transition-delay: 1s;
     text-shadow: 1px 1px 3px black;
 }
 
@@ -99,7 +98,7 @@
     position: absolute;
     width: 5%;
     padding-left: 1%;
-    margin-top: 0.4%;
+    margin-top: 0.5%;
 }
 
 .left__skills__list {
