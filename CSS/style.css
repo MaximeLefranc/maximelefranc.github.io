@@ -11,10 +11,14 @@
     --police-texte:'Poppins', sans-serif;
 }
 
+
+/*     LEFT     */
+
+
 .left {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     background-color: var(--color-background-left);
     padding: 2rem 1rem;
 }
@@ -31,11 +35,11 @@
 }
 
 .left__header__main__title {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     text-transform: uppercase;
-    color: var(--color-main-title);
+    color: var(--color-background);
     text-align: center;
-    font-size: 3rem ;
+    font-size: 4rem ;
     padding: 0;
     font-family: var(--poilice-title);
 }
@@ -44,6 +48,78 @@
     font-family: var(--poilice-title);
     color: var(--color-title);
     text-align: center;
-    font-size: 1.8rem;
-    margin-bottom: 4rem;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    line-height: 3.5rem;
 }
+
+.left__profile__title {
+    color: var(--color-title);
+    font-size: 2rem;
+    font-family: var(--poilice-title);
+    padding-left: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    text-decoration: underline;
+}
+
+.left__profile__content {
+    color: var(--color-background);
+    padding: 0 1.5rem 0 1.5rem;
+    font-family: var(--police-cite);
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+
+}
+
+.left__contact__content {
+    color: var(--color-background);
+    padding: 0 1.5rem 0 1.5rem;
+    font-family: var(--police-texte);
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+    position: relative;
+}
+
+.left__contact__content--link {
+    text-decoration: none;
+    color: var(--color-background);
+}
+
+.left__contact__content--link:hover {
+    color: var(--color-title);
+    transition-duration: 1s;
+    transition-delay: 1s;
+    text-shadow: 1px 1px 3px black;
+}
+
+.left__contact__content--icone {
+    position: absolute;
+    width: 5%;
+    padding-left: 1%;
+    margin-top: 0.4%;
+}
+
+.left__skills__list {
+    margin-bottom: 5rem;
+}
+
+.left__skills__list--content {
+    color: var(--color-background);
+    font-family: var(--police-texte);
+    font-size: 1.8rem;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    align-self: flex-end;
+}
+
+.left__skills__list--content span {
+    
+    margin-right: 4rem;
+}
+
+
+/*    RIGHT    */
+
