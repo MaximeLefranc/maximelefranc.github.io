@@ -11,6 +11,11 @@
     --police-texte:'Poppins', sans-serif;
 }
 
+.content {
+    display: flex;
+    background-color: var(--color-text-left);
+    
+}
 
 /*     LEFT     */
 
@@ -21,6 +26,8 @@
     width: 40%;
     background-color: var(--color-background-left);
     padding: 2rem 1rem;
+    box-shadow: 0px 0px 10px var(--color-background-left);
+    justify-content: space-between;
 }
 
 .left__header__image {
@@ -53,6 +60,9 @@
     line-height: 3.5rem;
 }
 
+
+
+
 .left__profile__title {
     color: var(--color-title);
     font-size: 2rem;
@@ -67,8 +77,8 @@
     color: var(--color-background);
     padding: 0 1.5rem 0 1.5rem;
     font-family: var(--police-cite);
-    font-size: 1.8rem;
-    line-height: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
     margin-bottom: 5rem;
 
 }
@@ -101,6 +111,7 @@
     margin-top: -0.2rem;
 }
 
+
 .left__skills__list {
     margin-bottom: 5rem;
 }
@@ -122,3 +133,89 @@
 
 /*    RIGHT    */
 
+.right {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin: 3rem 0rem 3rem 3rem;
+    background-color: var(--color-background);
+    background-image: url("");
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px var(--color-background-left);
+   
+}
+
+.right__socials {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12rem;
+    margin-top: 6rem;
+}
+
+.image__link {
+    display: block;
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+.image__link:hover {
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+
+.right__main-title {
+    color: var(--color-background);
+    background-color: var(--color-background-left);
+    font-size: 3rem;
+    padding: 1rem 0 1rem 2rem;
+    margin-left:2rem ;
+    margin-bottom: 5rem;
+    box-shadow: 0px 0px 10px var(--color-background-left);
+    font-family: var(--police-texte);
+    font-weight:bold;
+}
+
+.right__experiences__title {
+    margin: 0 0 0rem 4rem;
+    font-size: 2.1rem;
+    font-family: var(--police-texte);
+    color: var(--color-background-left);
+    font-weight: 700;
+    
+
+}
+
+.right__experiences__title--em {
+    font-size: 1.4rem ;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.right__experiences__time {
+    font-family: var(--police-texte);
+    color: var(--color-background-left);
+    margin-left: 6rem;
+    line-height: 1.4rem;
+}
+
+.right__experiences__function {
+    font-family: var(--police-texte);
+    color: var(--color-background-left);
+    margin: 0.3rem 0 1rem 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.special  {
+    margin-bottom: 6rem;
+}
+
+.right__experiences__list {
+    margin-left: 9rem;
+    margin-bottom: 5rem;
+    font-size: 1.2rem;
+    color: var(--color-background-left);
+    font-family: var(--police-texte);
+    line-height: 1.9rem;
+}
