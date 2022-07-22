@@ -97,8 +97,8 @@
 .left__contact__content--icone {
     position: absolute;
     width: 5%;
-    padding-left: 1%;
-    margin-top: 0.5%;
+    padding-left: 0.5rem;
+    margin-top: -0.2rem;
 }
 
 .left__skills__list {
