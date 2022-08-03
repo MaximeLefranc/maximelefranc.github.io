@@ -32,12 +32,13 @@
     background-color: var(--color-background-left);
     padding: 2rem 1rem;
     box-shadow: 0px 0px 10px var(--color-background-left);
-    justify-content: space-around;
+    justify-content:space-between;
 }
+
 
 .left__header__image {
     display: block;
-    width: 70%;
+    width: 80%;
     border-radius: 40%;
     margin: 0 auto 3rem auto;
 }
@@ -47,7 +48,7 @@
 }
 
 .left__header__main__title {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
     color: var(--color-background);
     text-align: center;
@@ -70,7 +71,7 @@
 
 .left__profile__title {
     color: var(--color-title);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: var(--police-texte);
     padding-left: 1.5rem;
     text-transform: uppercase;
@@ -83,19 +84,23 @@
     color: var(--color-background);
     padding: 0 1.5rem 0 1.5rem;
     font-family: var(--police-cite);
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 2rem;
 
+}
+
+.strong {
+    color:var(--color-title);
 }
 
 .left__contact__content {
     color: var(--color-background);
     padding: 0 1.5rem 0 1.5rem;
     font-family: var(--police-texte);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     position: relative;
 }
 
@@ -119,13 +124,13 @@
 
 
 .left__skills__list {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .left__skills__list--content {
     color: var(--color-background);
     font-family: var(--police-texte);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-left: 1.5rem;
     margin-bottom: 1rem;
     align-self: flex-end;
@@ -186,7 +191,7 @@
 
 .right__experiences__title {
     margin: 0 0 0rem 4rem;
-    font-size: 2.1rem;
+    font-size: 1.9rem;
     font-family: var(--police-texte);
     color: var(--color-background-left);
     font-weight: 700;
@@ -195,7 +200,7 @@
 }
 
 .right__experiences__title--em {
-    font-size: 1.4rem ;
+    font-size: 1.2rem ;
     font-style: italic;
     font-weight: lighter;
 }
@@ -211,7 +216,7 @@
     font-family: var(--police-texte);
     color: var(--color-background-left);
     margin: 0.3rem 0 1rem 4rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     
 }
@@ -223,7 +228,7 @@
 .right__experiences__list {
     margin-left: 9rem;
     margin-bottom: 3.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--color-background-left);
     font-family: var(--police-texte);
     line-height: 1.9rem;
@@ -242,9 +247,9 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
     background-color: var(--color-background-left);
     color: var(--color-background);
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.9rem;
-    width: 10%;
+    width: 5rem;
     display: inline-block;
     text-align: center;
     font-weight: bold;
@@ -255,7 +260,7 @@
 
 .right__formation__school {
     margin: 0 0 0rem 4rem;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-family: var(--police-texte);
     color: var(--color-background-left);
     font-weight: 700;
@@ -304,7 +309,18 @@
 
     .left__profile__title {
         padding-left: 0;
+        background-color: var(--color-background);
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: var(--color-background-left);
+        text-decoration: none;
     }
+
+    .left__skills__list--content {
+        padding-left: 0;
+        
+    }
+
 
     .check {
         display: none;
@@ -315,6 +331,11 @@
         margin: 0;
     }
 
+    .right__socials {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
     .right__main-title {
         margin-left: auto;
         text-align: center;
@@ -323,6 +344,7 @@
     
     .right__experiences__title {
        margin-left: auto;
+       margin-bottom: 1rem;
        text-align: center;
     }
     
@@ -346,7 +368,7 @@
         
     }
     .right__langage__contant--span {
-        padding: 0.5rem 2.5rem 0.5rem 1rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
         margin: 0rem 1rem 0rem 1rem;
     }
 
