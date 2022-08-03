@@ -173,7 +173,7 @@
 .right__main-title {
     color: var(--color-background);
     background-color: var(--color-background-left);
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1rem 0 1rem 2rem;
     margin-left:2rem ;
     margin-bottom: 3.5rem;
@@ -287,19 +287,123 @@
     margin-bottom: 3rem;
 }
 
-@media screen and (max-width : 700px) {
+@media screen and (max-width : 450px) {
     .content {
         display: flex;
         flex-direction: column;
-    }
-    
-    .background{
-       
+        align-items: center;
+        margin: 0;
     }
 
     .left {
         width: 100vw;
-        display: flex;
+        padding: 0; 
+        text-align: center;
     }
 
+    .left__profile__title {
+        padding-left: 0;
+    }
+
+    .check {
+        display: none;
+    }
+    .right {
+        width: 100vw;
+        padding: 0; 
+        margin: 0;
+    }
+
+    .right__main-title {
+        margin-left: auto;
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    .right__experiences__title {
+       margin-left: auto;
+       text-align: center;
+    }
+    
+    .right__experiences__list {
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .right__experiences__function {
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .right__experiences__time {
+        text-align: center;
+    }
+
+    .right__langage__content {
+        padding: 0;
+        margin-bottom: 1rem;
+        
+    }
+    .right__langage__contant--span {
+        padding: 0.5rem 2.5rem 0.5rem 1rem;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .right__formation {
+        text-align: center;
+    }
+
+    .right__formation__school {
+        margin: 0 0 0rem auto;
+    }
+    
+    .right__formation__diplome  {
+        margin-left: auto;
+    }
+    
+    .right__formation__time {
+        margin: 0.3rem 0 1rem auto;
+    }
+    
+    .right__formation__content {
+        margin-left: auto;
+    }
+}
+
+
+
+@media screen and (max-width : 900px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .left {
+        width: 100vw;
+        padding: 0; 
+    }
+
+    .right {
+        width: 100vw;
+        padding: 0; 
+        margin: 0;
+    }
+
+    .right__socials {
+        z-index: 0;
+    }
+}
+
+@media screen and (max-width : 1750px) {
+    .left {
+        width: 100vw;
+        padding: 0; 
+    }
+
+    .right {
+        width: 100vw;
+        padding: 0; 
+    }
 }
