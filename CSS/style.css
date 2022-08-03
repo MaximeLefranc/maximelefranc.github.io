@@ -76,7 +76,7 @@
     padding: 1rem 0 1rem 2rem;
     margin-right:2rem ;
     margin-bottom: 3.5rem;
-    box-shadow: 0px 0px 10px var(--color-background-left);
+    box-shadow: 0px 0px 10px var(--color-background);
     font-family: var(--police-texte);
     font-weight:bold;
     text-transform: uppercase;
