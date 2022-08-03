@@ -1,7 +1,7 @@
 :root {
     --color-background:#C5C3C6;
     --color-background-left:#46494C;
-    --color-title:#1985A1;
+    --color-title:#19a18a;
     --color-text-left:#DCDCDD;
     --color-second-title:#4C5C68;
     --color-main-title:#fff;
@@ -71,11 +71,12 @@
 .left__profile__title {
     color: var(--color-title);
     font-size: 2rem;
-    font-family: var(--poilice-title);
+    font-family: var(--police-texte);
     padding-left: 1.5rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .left__profile__content {
