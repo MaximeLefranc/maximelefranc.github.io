@@ -30,7 +30,7 @@
     flex-direction: column;
     width: 40%;
     background-color: var(--color-background-left);
-    padding: 2rem 1rem;
+    padding: 4rem 0rem;
     box-shadow: 0px 0px 10px var(--color-background-left);
     justify-content:space-between;
 }
@@ -53,7 +53,7 @@
     color: var(--color-background);
     text-align: center;
     font-size: 4rem ;
-    padding: 0;
+    padding: 0 0.1rem;
     font-family: var(--poilice-title);
 }
 
@@ -70,14 +70,16 @@
 
 
 .left__profile__title {
-    color: var(--color-title);
-    font-size: 1.8rem;
+    color: var(--color-background-left);
+    background-color: var(--color-background);
+    font-size: 2rem;
+    padding: 1rem 0 1rem 2rem;
+    margin-right:2rem ;
+    margin-bottom: 3.5rem;
+    box-shadow: 0px 0px 10px var(--color-background-left);
     font-family: var(--police-texte);
-    padding-left: 1.5rem;
+    font-weight:bold;
     text-transform: uppercase;
-    margin-bottom: 2rem;
-    text-decoration: underline;
-    font-weight: bold;
 }
 
 .left__profile__content {
@@ -307,6 +309,10 @@
         text-align: center;
     }
 
+    .left__header__second__title {
+        margin-bottom: 4rem;
+    }
+
     .left__profile__title {
         padding-left: 0;
         background-color: var(--color-background);
@@ -314,6 +320,7 @@
         padding-bottom: 1rem;
         color: var(--color-background-left);
         text-decoration: none;
+        margin-left: 2rem;
     }
 
     .left__skills__list--content {
@@ -337,7 +344,8 @@
     }
 
     .right__main-title {
-        margin-left: auto;
+        margin-left: 2rem;
+        margin-right: 2rem;
         text-align: center;
         padding-left: 0;
     }
