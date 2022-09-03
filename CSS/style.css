@@ -35,10 +35,13 @@
     /* justify-content:space-between; */
 } 
 
-.left > *{
+.left > *:not(.left__skills){
     flex-grow: 1;
 }
 
+.left__header {
+  text-align: center;
+}
 
 .left__header__image {
     display: block;
@@ -71,9 +74,33 @@
 }
 
 .left__header__link {
-  text-decoration: none;
-  margin: 0 auto 0 auto;
-  display: inline-block;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-text-left);
+    font-family: var(--police-texte);
+    border: 1px solid var(--color-text-left);
+    border-radius: 5px;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: var(--color-background-left);
+    font-weight: bold;
+    width: 30%;
+}
+.left__header__link:first-of-type{
+  margin-right: 1rem;
+}
+
+.left__header__link:last-child{
+  margin-left: 1rem;
+}
+
+.left__header__link:hover {
+  transition: 1s;
+  color: var(--color-background-left);
+  background-color: var(--color-text-left);
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px black;
+
 }
 
 
@@ -97,7 +124,6 @@
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 2rem;
-
 }
 
 .strong {
@@ -427,7 +453,7 @@
     .right {
         width: 100vw;
         padding: 0; 
-        margin: 0;
+        margin: 0 0 0 0 ;
     }
 
     .right__socials {
@@ -435,14 +461,37 @@
     }
 }
 
+@media screen and (min-width : 900px) and (max-width : 1200px) {
+    .content {
+      margin: 0 0rem;
+    }
+    .right {
+      margin: 0rem 0rem 0rem 3rem;
+    }
+    .right__socials{
+      margin: 2rem 0 2rem 0;
+    }
+    .image__link{
+      width: 40%;
+    }
+    .left {
+      flex-shrink: 1.8;
+    }
+}
+
 @media screen and (max-width : 1750px) {
+    .content {
+      margin: 0 0rem;
+    }
     .left {
         width: 100vw;
         padding: 0; 
+        flex-shrink: 1.5;
     }
 
     .right {
         width: 100vw;
         padding: 0; 
+        margin: 0rem 0rem 0rem 1.5rem;
     }
 }
