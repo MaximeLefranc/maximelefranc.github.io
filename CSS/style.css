@@ -70,7 +70,11 @@
     line-height: 3.5rem;
 }
 
-
+.left__header__link {
+  text-decoration: none;
+  margin: 0 auto 0 auto;
+  display: inline-block;
+}
 
 
 .left__profile__title {
